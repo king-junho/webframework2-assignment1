@@ -133,6 +133,10 @@
         </div>
 
     </form>
+    <footer style ="margin-top:40px; padding-top: 16px; border-top: 1px solid #ddd; color: #666; font-size: 0.95em;">
+        <p th:text="${'실습 수행 일시 : ' + #temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss')+ ' | 학번 : 2071011 | 성명 : 김준호'}">
+        </p>
+    </footer>
 
 </body>
 </html>
